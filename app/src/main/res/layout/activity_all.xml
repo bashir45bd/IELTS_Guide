@@ -39,39 +39,9 @@
         android:id="@+id/bookpage"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/color2"
+        android:background="@color/color1"
         android:layout_above="@+id/ads"
         android:visibility="gone">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/_380sdp"
-            android:background="@drawable/allactivity"
-            android:orientation="vertical">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_15sdp"
-                >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="It always seems impossible until it's done."
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/_22ssp"
-                    android:textStyle="bold"
-                    android:fontFamily="@font/kalpurush"
-
-                    />
-
-            </LinearLayout>
-
-
-
-        </LinearLayout>
 
         <RelativeLayout
             android:layout_centerVertical="true"
