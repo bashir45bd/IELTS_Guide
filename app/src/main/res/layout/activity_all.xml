@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/ads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/barcolor"
+        android:orientation="vertical"
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:background="@color/color2"
+            />
+
+        <com.google.android.gms.ads.AdView
+            android:layout_margin="@dimen/_5sdp"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/AdView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/bannarads">
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bookpage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color2"
+        android:layout_above="@+id/ads"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_380sdp"
+            android:background="@drawable/allactivity"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_15sdp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="It always seems impossible until it's done."
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_22ssp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/kalpurush"
+
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_300sdp"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:background="@drawable/ac1"
+            android:gravity="center"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="@dimen/_20sdp">
+
+                <LinearLayout
+                    android:id="@+id/academic"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:background="@drawable/ac"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Academic-IELTS"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/_22ssp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/genaral"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:background="@drawable/ac"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Genaral-IELTS"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/_22ssp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/makkar"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:background="@drawable/ac"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Makkar-IELTS"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/_22ssp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/liz"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:background="@drawable/ac"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Grammar-liz"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/_22ssp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/vocab"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:background="@drawable/ac"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Vocabulary"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/_22ssp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/modules"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color1"
+        android:layout_above="@+id/ads"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animationView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_180sdp"
+                app:lottie_autoPlay="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                app:lottie_loop="true"
+                android:elevation="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_50sdp"
+                android:background="@drawable/ac1"
+                app:lottie_rawRes="@raw/book" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:background="@drawable/ac1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_17sdp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/reading"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="@dimen/_95sdp"
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:clickable="true"
+                        android:elevation="@dimen/_3sdp"
+                        android:foreground="?attr/selectableItemBackground"
+                        app:cardCornerRadius="@dimen/_7sdp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@drawable/two_color"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="@dimen/_60sdp"
+                                android:layout_height="@dimen/_55sdp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/reading33" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="Reading"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_20ssp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/listening"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="@dimen/_95sdp"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        app:cardCornerRadius="@dimen/_7sdp"
+
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@drawable/two_color2"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="@dimen/_60sdp"
+                                android:layout_height="@dimen/_55sdp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/listening33" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="Listening"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_20ssp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_17sdp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/writing"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="@dimen/_95sdp"
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        app:cardCornerRadius="@dimen/_7sdp"
+
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@drawable/two_color2"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="@dimen/_60sdp"
+                                android:layout_height="@dimen/_55sdp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/writing33"
+
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="Writing"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_20ssp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/speaking"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="@dimen/_95sdp"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        app:cardCornerRadius="@dimen/_7sdp"
+
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@drawable/two_color"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="@dimen/_60sdp"
+                                android:layout_height="@dimen/_55sdp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/speak33" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/kalpurush"
+                                android:text="Speaking"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_20ssp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/intro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_above="@+id/ads"
+        android:background="#EAEAEA"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:orientation="horizontal"
+                android:background="@color/barcolor"
+                >
+
+                <ImageView
+                    android:id="@+id/backintro"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:src="@drawable/backspace_24"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/_7sdp"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    app:tint="@color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:text="Introduction of IELTS"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_20ssp"
+                        android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F3F3F3"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="15dp"
+                    android:paddingBottom="30dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="IELTS কি?"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_22ssp"
+                        android:fontFamily="@font/kalpurush"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kalpurush"
+                        android:text="IELTS এর পূর্ণরূপ হচ্ছে International English Language Testing System । এই পরিক্ষা সাধারণত foreign ইউনিভার্সিটি তে ভর্তি/স্কলারশিপ, কোন নির্দিষ্ট Job যেমন মেডিকেল প্রফেশন এবং English Speaking যে কোন দেশে স্থানান্তরিত হতে চাইলে দরকার হয়। যাদের মাতৃভাষা ইংরেজি নয় তারা যদি উচ্চশিক্ষা বা English Speaking দেশে Migration করতে চায় তখন এই পরীক্ষাটা দিতে হয়। IELTS সাধারণত ইংরেজি ভাষার দক্ষতা যাচাইয়ের Exam। এর সর্বোচ্চ Band Score 9 এবং সর্বনিম্ন Band Score 1 । পরীক্ষাটা 4 Modules হয়ে থাকে। \nএগুলো হচ্ছে-"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_16ssp"
+                        android:justificationMode="inter_word"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1.Listening 2.Reading \n3.Speaking 4.Writing"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_22ssp"
+                        android:fontFamily="@font/kalpurush"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kalpurush"
+                        android:text="প্রতিটি Module মানের স্কেল 1 থেকে 9 পর্যন্ত। এই পরিক্ষায় কোন পাশ বা ফেইল বলে কোন কথা নেই।"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_16ssp"
+                        android:justificationMode="inter_word"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="পরিক্ষার ধরনঃ"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_22ssp"
+                        android:fontFamily="@font/kalpurush"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kalpurush"
+                        android:text="IELTS পরিক্ষার ২ টি ক্যাটাগরি রয়েছে।\n1. Academic (AC) একাডেমিক \n2. General Training (GT) জেনারেল"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_16ssp"
+                        android:justificationMode="inter_word"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Academic (AC) একাডেমিক:"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_22ssp"
+                        android:fontFamily="@font/kalpurush"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kalpurush"
+                        android:justificationMode="inter_word"
+                        android:text="সাধারণত ইউনিভার্সিটি তে ভর্তি অথবা স্কলারশিপের জন্য, কোন নির্দিষ্ট প্রফেশন যেমন মেডিকেল প্রফেশন ইত্যাদি ক্ষেত্রে IELTS Academic Test দিতে হয়।"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_16ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. General Training (GT) জেনারেল:"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        android:fontFamily="@font/kalpurush"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kalpurush"
+                        android:text="সাধারণত English Speaking কোন দেশে Migration করতে চাইলে IELTS General Test দিতে হয়।"
+                        android:textColor="#000000"
+                        android:textSize="22dp"
+                        android:justificationMode="inter_word"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="IELTS এর গ্রহণযোগ্যতা বিশ্বজুড়ে:"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_20ssp"
+                        android:fontFamily="@font/kalpurush"
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kalpurush"
+                        android:text="ইউনিভার্সিটি অব ক্যামব্রিজ সূত্রে জানা যায়, ১৮ লাখের বেশি শিক্ষার্থী ও পেশাজীবী উচ্চশিক্ষা ও চাকরির লক্ষ্যে প্রতিবছর IELTS পরীক্ষায় অংশ নেন। ব্রিটিশ কাউন্সিল বাংলাদেশের এক্সামিনেশনস ডাইরেক্টর পিটার এশটন জানান, উচ্চশিক্ষা ছাড়াও অস্ট্রেলিয়া, কানাডা, যুক্তরাজ্যসহ অনেক দেশে ইমিগ্রেশনের ক্ষেত্রে আইইএলটিএস স্কোর থাকা বাধ্যতামূলক। গ্রহণযোগ্যতার ক্ষেত্রে আন্তর্জাতিকভাবে টোফেলের চেয়ে অনেক এগিয়ে আইইএলটিএস।"
+                        android:textColor="#000000"
+                        android:textSize="22dp"
+                        android:justificationMode="inter_word"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="পরীক্ষা পরিচালনা"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16ssp"
+                        android:fontFamily="@font/kalpurush"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kalpurush"
+                        android:text="University of Cambridge, British Council ও IDP Australia যৌথভাবে পরিচালনা করে আইইএলটিএস পরীক্ষা। এ পরীক্ষায় নীতি নির্ধারক কেমব্রিজ বিশ্ববিদ্যালয় হলেও বিশ্বব্যাপী পরীক্ষা পরিচালনা ও শিক্ষার্থীদের কাছে তথ্য পৌছে দেওয়ার মূল ভূমিকা পালন করছে বিট্রিশ কাউন্সিল ও আইডিপি অস্ট্রেলিয়া। সারা বিশ্বে একই প্রশ্নপত্র ও অভিন্ন নিয়মে পরিচালিত হয়।"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_16ssp"
+                        android:justificationMode="inter_word"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="পরিক্ষার ধরণ"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_22ssp"
+                        android:fontFamily="@font/kalpurush"
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kalpurush"
+                        android:text="IELTS সাধারণত ইংরেজি ভাষার দক্ষতা যাচাইয়ের পরিক্ষা। এর সর্বোচ্চ Band Score 9 এবং সর্বনিম্ন Band Score 1. Listening, Speaking এর পরিক্ষার ধরণ IELTS Academic Test এবং IELTS General Test দুইটাতে একই। IELTS পরিক্ষার ফি 18750 টাকার মত। সাম্প্রতিকতম তথ্য জানতে British Council Dhaka or IDP Bangladesh এর অফিসিয়াল ওয়েবসাইট দেখুন। IELTS এর প্রতিটা সেকশনেই Band Score হচ্ছে 0-9 পর্যন্ত। সবগুলো সেকশনের গড় করার পর আসল IELTS ব্যান্ড স্কোর নির্ধারণ করা হয়। 0-9 পর্যন্ত প্রতিটা স্কোরই একজন প্রার্থীর"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_16ssp"
+                        android:justificationMode="inter_word"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="কিভাবে IELTS এর জন্য রেজিস্ট্রেশন করবেন?"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:fontFamily="@font/kalpurush"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kalpurush"
+                        android:text="IELTS exam এ অংশগ্রহণ করার জন্যে আপনাকে অবশ্যই রেজিস্ট্রেশন করতে হবে। আপনি আপনার আশেপাশের IELTS test centre গুলোতে যেতে পারেন। সেখানের information desk staff এর সাথে কথা রেজিস্ট্রেশনের সমস্ত খুঁটিনাটি বিষয় জানতে পারবেন। অথবা আপনি অনলাইনেও আবেদন করতে পারবেন এই লিঙ্কে গিয়ে www.ielts.org। কিন্তু সকল পরীক্ষা কেন্দ্র অনলাইন রেজিস্ট্রেশন গ্রহণ করে না, তাই স্বশরীরে পরীক্ষা কেন্দ্রে গিয়ে খোঁজ নেয়াই উত্তম।"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_16ssp"
+                        android:justificationMode="inter_word"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Registration করার জন্যে যা যা প্রয়োজন:"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_22ssp"
+                        android:fontFamily="@font/kalpurush"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kalpurush"
+                        android:text="৬ মাসের বেশি পুরনো ছবি ব্যবহার করবেন না। ছবিতে আপনার চেহারা স্পষ্ট বুঝা যায় এমন ছবি ব্যবহার করবেন। ছবি তুলার সময় চশমা খুলে ছবি তুলবেন। ছবির অপর পাশে কলম দিয়ে নিজের নাম লিখে দেবেন। পাসপোর্ট না থাকলে দ্রুতই পাসপোর্ট বানিয়ে নিন। কারণ IELTS এর রেজিস্ট্রেশনের জন্য পাসপোর্ট লাগবেই। রেজিস্ট্রেশন সেন্টারে যাওয়ার সময় পাসপোর্টের ফটোকপি নিয়ে যেতে পারেন। যদি আপনি আপনার IELTS স্কোরটি কোন বিশ্ববিদ্যালয় অথবা কলেজে পাঠাতে চান তাহলে এপ্লিকেশন ফর্মে সেই বিশ্ববিদ্যালয়/কলেজের নাম নির্দিষ্ট করে উল্লেখ করতে হবে। নির্দিষ্ট সেন্টারে গিয়ে নির্ধারিত ফি জমা দিয়ে রেজিস্ট্রেশনের ফর্ম জমা দিতে হবে।"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_16ssp"
+                        android:justificationMode="inter_word"/>
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            </ScrollView>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/basic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color1"
+        android:layout_above="@+id/ads"
+        android:visibility="gone"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color1"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:orientation="horizontal"
+                android:background="@color/barcolor"
+                >
+
+                <ImageView
+                    android:id="@+id/backbasic"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:src="@drawable/backspace_24"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/_7sdp"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    app:tint="@color/white" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:text="Basic English"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_23ssp"
+                        android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+
+            <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_15sdp"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/_35sdp"
+                        android:layout_marginLeft="@dimen/_35sdp"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:layout_marginBottom="@dimen/_25sdp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/b1"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_45sdp"
+                            android:background="@drawable/two_color"
+                            android:elevation="@dimen/_3sdp"
+                            android:orientation="horizontal"
+                            android:layout_gravity="center"
+                            android:clickable="true"
+                            android:foreground="?attr/selectableItemBackground">
+
+
+                             <ImageView
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:src="@drawable/all"
+                                 />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="center"
+                                android:text="Pronunciation"
+                                android:textColor="#ffffff"
+                                android:textSize="@dimen/_22ssp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/b2"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_45sdp"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal"
+                            android:background="@drawable/two_color2"
+                            android:layout_gravity="center"
+                            android:elevation="@dimen/_3sdp"
+                            android:clickable="true"
+                            android:foreground="?attr/selectableItemBackground">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/all"
+                                />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="center"
+                                android:text="Use of Be verb"
+                                android:textColor="#ffffff"
+                                android:textSize="@dimen/_22ssp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/b3"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_45sdp"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal"
+                            android:background="@drawable/two_color3"
+                            android:layout_gravity="center"
+                            android:elevation="@dimen/_3sdp"
+                            android:clickable="true"
+                            android:foreground="?attr/selectableItemBackground">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/all"
+                                />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="center"
+                                android:text="To have verb"
+                                android:textColor="#ffffff"
+                                android:textSize="@dimen/_22ssp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/b4"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_45sdp"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal"
+                            android:background="@drawable/two_color"
+                            android:layout_gravity="center"
+                            android:elevation="@dimen/_3sdp"
+                            android:clickable="true"
+                            android:foreground="?attr/selectableItemBackground">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/all"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="center"
+                                android:text="Use of It and there"
+                                android:textColor="#ffffff"
+                                android:textSize="@dimen/_18ssp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/b5"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_45sdp"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal"
+                            android:background="@drawable/two_color2"
+                            android:layout_gravity="center"
+                            android:elevation="@dimen/_3sdp"
+                            android:clickable="true"
+                            android:foreground="?attr/selectableItemBackground">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/all"
+                                />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="center"
+                                android:text="Preposition of time "
+                                android:textColor="#ffffff"
+                                android:textSize="@dimen/_18ssp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/b6"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_45sdp"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal"
+                            android:background="@drawable/two_color3"
+                            android:layout_gravity="center"
+                            android:elevation="@dimen/_3sdp"
+                            android:clickable="true"
+                            android:foreground="?attr/selectableItemBackground">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/all"
+                                />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="center"
+                                android:text="Tense"
+                                android:layout_marginLeft="@dimen/_5sdp"
+                                android:textColor="#ffffff"
+                                android:textSize="@dimen/_25ssp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/b7"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_45sdp"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal"
+                            android:background="@drawable/two_color"
+                            android:layout_gravity="center"
+                            android:elevation="@dimen/_3sdp"
+                            android:clickable="true"
+                            android:foreground="?attr/selectableItemBackground">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/all"
+                                />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="center"
+                                android:text="Active and passive"
+                                android:textColor="#ffffff"
+                                android:textSize="@dimen/_20ssp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/b8"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_45sdp"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal"
+                            android:background="@drawable/two_color2"
+                            android:layout_gravity="center"
+                            android:elevation="@dimen/_3sdp"
+                            android:clickable="true"
+                            android:foreground="?attr/selectableItemBackground">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/all"
+                                />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="center"
+                                android:text="Sub-verb Agreement "
+                                android:textColor="#ffffff"
+                                android:textSize="@dimen/_18sdp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/b9"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_45sdp"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal"
+                            android:background="@drawable/two_color3"
+                            android:layout_gravity="center"
+                            android:elevation="@dimen/_3sdp"
+                            android:clickable="true"
+                            android:foreground="?attr/selectableItemBackground">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/all"
+                                />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="center"
+                                android:text="Degree"
+                                android:textColor="#ffffff"
+                                android:textSize="@dimen/_23ssp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/b10"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_45sdp"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal"
+                            android:background="@drawable/two_color"
+                            android:layout_gravity="center"
+                            android:elevation="@dimen/_3sdp"
+                            android:clickable="true"
+                            android:foreground="?attr/selectableItemBackground">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/all"
+                                />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="center"
+                                android:text="Reletive pronoun"
+                                android:textColor="#ffffff"
+                                android:textSize="@dimen/_21ssp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/b11"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_45sdp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="@dimen/_25sdp"
+                            android:orientation="horizontal"
+                            android:background="@drawable/two_color2"
+                            android:layout_gravity="center"
+                            android:elevation="@dimen/_3sdp"
+                            android:clickable="true"
+                            android:foreground="?attr/selectableItemBackground">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/all"
+                                />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="center"
+                                android:text="Reading tips"
+                                android:textColor="#ffffff"
+                                android:textSize="@dimen/_22ssp" />
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/routine"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_above="@+id/ads"
+        android:background="#EAEAEA"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:orientation="horizontal"
+                android:background="@color/barcolor"
+                >
+
+                <ImageView
+                    android:id="@+id/backro"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:src="@drawable/backspace_24"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/_7sdp"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    app:tint="@color/white" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kalpurush"
+                        android:text="Daily Routine"
+                        android:textColor="@color/white"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="@dimen/_20ssp"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F3F3F3"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="15dp"
+                    android:paddingBottom="30dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="রুটিন মাফিক পড়াশোনা করলে IELTS এর ভাল প্রস্তুতি হয়ে যায়।"
+                        android:textColor="#000000"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textSize="22dp"
+                        android:fontFamily="@font/kalpurush"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kalpurush"
+                        android:text="Morning :\n➤ 8:00 am to 9:00 am: Listening just    ( Section 1/2)\n➤ 9:00 am to 10:00 am: Writing task 1\n➤ 10:00 am to 11:00 am( Vocabulary, Tense, parts of speech) (grammar)\n\nAfternoon\n➤ 3 pm to 4 pm (Reading just passage 1 /2)\n➤ 4 pm to 5 pm: Speaking cue card( record your voice and listen by yourself, finally you can rerecord your voice)\n\nNight :\n➤ 7 pm to 8 pm: Listening just ( Section 3/4)\n➤ 10 pm to 11 pm: Reading just ( passage 2/3) \n➤ 11 pm to 12 am: Writing Task 2"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
+                        android:justificationMode="inter_word"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kalpurush"
+                        android:text="বিঃদ্রঃ আপনার যদি এই রুটিন কোন কারণে পরিবর্তনের প্রয়োজন হয়, তাহলে পরিবর্তন করে নিবেন। এবং আপনি যদি ইসলাম ধর্মের অনুসারি হয়ে থাকেন তাহলে ফজরের নামাজ পড়ে দিন শুরু করুন।\nধন্যবাদ"
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        android:layout_marginBottom="30dp"
+                        android:layout_marginTop="20dp"
+                        android:justificationMode="inter_word"/>
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            </ScrollView>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

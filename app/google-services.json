@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "194288321420",
+    "project_id": "ielts-guide-17fdd",
+    "storage_bucket": "ielts-guide-17fdd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194288321420:android:ec734f48902eec79e58ca9",
+        "android_client_info": {
+          "package_name": "com.bashirbd.ieltsguide"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2qVjl-4RPf1NEDvik0xDY4xi1K_8BJ-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

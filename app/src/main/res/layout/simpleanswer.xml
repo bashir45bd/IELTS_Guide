@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/smcliker"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:background="@drawable/ac"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+
+        <TextView
+            android:id="@+id/sm"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/gtborder"
+            android:gravity="center"
+            android:text="Cambridge-18"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:fontFamily="@font/kalpurush"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/simpleanswer" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/circle_two_colored"
+            android:gravity="center"
+            android:text="IELTS-Writing"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:fontFamily="@font/kalpurush"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

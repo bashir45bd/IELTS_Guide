@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/vocabcliker"
+        android:layout_width="match_parent"
+        android:layout_height="235sp"
+        android:background="@drawable/ac"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+
+        <TextView
+            android:id="@+id/vocabbn"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/gtborder"
+            android:fontFamily="@font/kalpurush"
+            android:gravity="center"
+            android:text="Cambridge-18"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/vocab" />
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/gtborder"
+            android:gravity="center"
+            android:text="Vocabulary"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:fontFamily="@font/kalpurush"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

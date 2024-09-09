@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/topicname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Topic-Toy"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/kalpurush"
+                android:textStyle="bold"
+
+                android:justificationMode="inter_word"
+                />
+            <TextView
+                android:id="@+id/q1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Did you play with toys when you were a child?"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/kalpurush"
+                android:textStyle="bold"
+
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:id="@+id/a1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ans. Of course, I loved playing with toys when I was a child; I think all children do"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/kalpurush"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:id="@+id/q2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kalpurush"
+                android:justificationMode="inter_word"
+                android:text="2. What kinds of toys did you like?"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/a2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ans. As far as I remember, I mostly played with toy cars, planes and action figures from films or cartoons. I also liked building things with Lego."
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/kalpurush"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:id="@+id/q3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. In your country, do boys and girls play with the same types of toys?"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/kalpurush"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:id="@+id/a3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kalpurush"
+                android:justificationMode="inter_word"
+                android:text="Ans. Definitely, not I think boys like the kinds of toys that I mentioned before, whereas girls play with dolls. I can also add that my niece, for example, doesn't like toy cars; she prefers dressing dolls in different outfits."
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/q4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Do you think that toys help children to learn?"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/kalpurush"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:id="@+id/a4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/kalpurush"
+                android:justificationMode="inter_word"
+                android:text="Ans. Obviously, I do. All toys encourage children to use their imagination and creativity. To be more exact, even with simple toys, children imagine situations and invent games and rules."
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

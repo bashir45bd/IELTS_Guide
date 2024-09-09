@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/cuecradname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Describe a part of a city or a town you enjoy spending time in. You should say-"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/kalpurush"
+            android:textStyle="bold"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="20dp"
+            />
+
+
+        <TextView
+            android:id="@+id/fullcuecard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Where it is?What it is like?
+What do you do there?
+And explain why you enjoy spending time there. I have visited a lot of places. Among of In my entire life/throughout my all life, them, today, I would like to talk about a place where I really enjoy spending time.
+To begin with, the name of the place is Cox's-bazar which is located in the southern part of Bangladesh and this place is full of natural beauty.
+In other words, this is outstanding place with longest sea beach in the world. And there are a number of plants, flowers, rides, swings, jogging tracks, and so on available for children and adults.
+Most importantly, I go there then I like to walk on the sea beach and like to sit on it. After it, I sit there with my other friends and spend time with them. Sometimes, we play some sports such as; cricket, football and so on.
+Moreover, there are a great number (a great many) of reasons why I like to spending time there. First and foremost, I like to spend time there because it is a very peaceful place when I go there I feel relax and burden-free from my work and study. Another prominent point is that I easily refresh my mind and boost up my energy to enjoy the beauty of nature silly things of children. What's more, I always get into a state of flow while having a walk over here. Last but not least, I get a chance to widen my social circle by meeting like-minded people over there. That's all what I can share with your at this moment."
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/kalpurush"
+            android:justificationMode="inter_word"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kalpurush"
+            android:justificationMode="inter_word"
+            android:text="Part-3 Question."
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/part3q1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. How do public places change in towns or cities?"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/kalpurush"
+            android:textStyle="bold"
+            android:justificationMode="inter_word"
+            />
+
+        <TextView
+            android:id="@+id/part3a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kalpurush"
+            android:justificationMode="inter_word"
+            android:text="Ans. I guess that public places change in towns or cities for some reasons. First off, the new generations want new and modernized facilities. And then, The administration sometimes makes changes to public places like bus stops with the help of technology, for example, automatic ticket counters"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/part3q2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Did you play with toys when you were a child?"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/kalpurush"
+            android:textStyle="bold"
+            android:justificationMode="inter_word"
+            />
+
+        <TextView
+            android:id="@+id/part3a2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kalpurush"
+            android:justificationMode="inter_word"
+            android:text="Ans. Of course, I loved playing with toys when I was a child; I think all children do. 2. What kinds of toys did you like?Ans. As far as I remember, I mostly played with toy cars, planes and action figures from films or cartoons. I also liked building things with Lego."
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/part3q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. In your country, do boys and girls play with the same types of toys?"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/kalpurush"
+            android:textStyle="bold"
+            android:justificationMode="inter_word"
+            />
+
+        <TextView
+            android:id="@+id/part3a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kalpurush"
+            android:justificationMode="inter_word"
+            android:text="Ans. Obviously, I do. All toys encourage children to use their imagination and creativity. To be more exact, even with simple toys, children imagine situations and invent games and rules."
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+
+</LinearLayout>

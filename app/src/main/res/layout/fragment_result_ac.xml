@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/color1"
+        android:gravity="center"
+        >
+
+    <LinearLayout
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:orientation="horizontal"
+        android:background="@drawable/two_color2"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:elevation="@dimen/_3sdp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Reading band score"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_22ssp"
+            android:textStyle="bold"
+            android:fontFamily="@font/kalpurush"
+            />
+
+
+        />
+    </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/add_in_layout1"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            style="@style/ThemeOverlay.Material3.AutoCompleteTextView"
+            android:hint="Out of 40"
+            android:layout_marginTop="@dimen/_7sdp"
+            app:endIconMode="clear_text"
+            app:boxStrokeWidth="@dimen/_2sdp"
+            app:boxBackgroundColor="@color/white"
+            android:paddingLeft="@dimen/_2sdp"
+            android:paddingRight="@dimen/_2sdp"
+            android:paddingTop="@dimen/_1sdp"
+            android:paddingBottom="@dimen/_4sdp"
+            android:background="@drawable/ac1"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLength="2"
+                android:textColor="#151515"
+                android:textSize="@dimen/_13ssp" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+            android:gravity="center"
+        android:layout_marginTop="@dimen/_15sdp"
+        >
+
+        <TextView
+            android:id="@+id/reset1"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/two_color"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Reset"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20ssp"
+            android:fontFamily="@font/kalpurush"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            />
+
+        <TextView
+            android:id="@+id/calculate"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:background="@drawable/two_color"
+            android:clickable="true"
+            android:fontFamily="@font/kalpurush"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="Calculate"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:orientation="horizontal"
+        android:background="@drawable/two_color2"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Listening band score"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_22ssp"
+            android:fontFamily="@font/kalpurush"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            style="@style/ThemeOverlay.Material3.AutoCompleteTextView"
+            android:hint="Out of 40"
+            android:layout_marginTop="@dimen/_7sdp"
+            app:endIconMode="clear_text"
+            app:boxStrokeWidth="@dimen/_2sdp"
+            app:boxBackgroundColor="@color/white"
+            android:paddingLeft="@dimen/_2sdp"
+            android:paddingRight="@dimen/_2sdp"
+            android:paddingTop="@dimen/_1sdp"
+            android:paddingBottom="@dimen/_4sdp"
+            android:background="@drawable/ac1"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLength="2"
+                android:textColor="#151515"
+                android:textSize="@dimen/_13ssp" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/reset2"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/two_color"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Reset"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20ssp"
+            android:fontFamily="@font/kalpurush"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            />
+        <TextView
+            android:id="@+id/calculate1"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/two_color"
+            android:gravity="center"
+            android:text="Calculate"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20ssp"
+            android:fontFamily="@font/kalpurush"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_marginLeft="@dimen/_10sdp"
+            />
+
+    </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:text="Check Band score"
+            android:textStyle="bold"
+            android:textSize="@dimen/_20ssp"
+            android:textColor="@color/white"
+            android:background="@drawable/two_color2"
+            android:padding="@dimen/_5sdp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kalpurush"
+            android:layout_marginTop="@dimen/_20sdp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            >
+
+        <LinearLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:orientation="horizontal"
+            android:background="@drawable/ac1"
+            android:layout_gravity="center"
+            >
+
+            <View
+                android:layout_width="@dimen/_8sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/two_color"
+                android:layout_gravity="start"
+
+
+                />
+
+            <TextView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:gravity="left"
+                android:text="Reading"
+                android:textColor="#2C2B2B"
+                android:textSize="@dimen/_20ssp"
+                android:fontFamily="@font/kalpurush"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:src="@drawable/next_24"
+                android:layout_gravity="center"
+                />
+
+            <EditText
+                android:id="@+id/text3"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:hint="Out of 9"
+                android:textStyle="normal"
+                android:textSize="@dimen/_18sdp"
+                android:inputType="numberDecimal"
+                android:textColor="#000000"
+                android:maxLength="3"
+                android:layout_marginLeft="@dimen/_5sdp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/ac1"
+            android:orientation="horizontal"
+            >
+
+            <View
+                android:layout_width="@dimen/_8sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/two_color"
+
+                />
+
+            <TextView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Listening"
+                android:textColor="#2C2B2B"
+                android:textSize="@dimen/_20ssp"
+                android:fontFamily="@font/kalpurush"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_gravity="center"
+
+                />
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:src="@drawable/next_24"
+                android:layout_gravity="center"
+                />
+            <EditText
+                android:id="@+id/text4"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:hint="Out of 9"
+                android:textStyle="normal"
+                android:textSize="@dimen/_18sdp"
+                android:inputType="numberDecimal"
+                android:textColor="#000000"
+                android:maxLength="3"
+                android:layout_marginLeft="@dimen/_5sdp"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/ac1"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="horizontal"
+            >
+
+            <View
+                android:layout_width="@dimen/_8sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/two_color"
+
+                />
+
+            <TextView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:fontFamily="@font/kalpurush"
+                android:gravity="left"
+                android:text="Writing"
+                android:textColor="#2C2B2B"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold"
+
+                />
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:src="@drawable/next_24"
+                android:layout_gravity="center"
+                />
+
+            <EditText
+                android:id="@+id/text5"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:hint="Out of 9"
+                android:inputType="numberDecimal"
+                android:textColor="#000000"
+                android:textSize="@dimen/_18ssp"
+                android:textStyle="normal"
+                android:maxLength="3"
+                android:layout_marginLeft="@dimen/_5sdp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/ac1"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:orientation="horizontal"
+            >
+
+            <View
+                android:layout_width="@dimen/_8sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/two_color"
+
+                />
+
+            <TextView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Speaking"
+                android:textColor="#2C2B2B"
+                android:textSize="@dimen/_20sdp"
+                android:fontFamily="@font/kalpurush"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_gravity="center"
+
+                />
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:src="@drawable/next_24"
+                android:layout_gravity="center"
+                />
+            <EditText
+                android:id="@+id/text6"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:hint="Out of 9"
+                android:textStyle="normal"
+                android:textSize="@dimen/_18ssp"
+                android:inputType="numberDecimal"
+                android:textColor="#000000"
+                android:maxLength="3"
+                android:layout_marginLeft="@dimen/_5sdp"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/_20sdp"
+            >
+
+            <TextView
+                android:id="@+id/reset3"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/two_color"
+                android:clickable="true"
+                android:fontFamily="@font/kalpurush"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Reset"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/calculate2"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/two_color"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="Calculate"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20ssp"
+                android:fontFamily="@font/kalpurush"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

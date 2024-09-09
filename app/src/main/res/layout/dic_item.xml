@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#fffbfe"
+        android:layout_marginLeft="@dimen/_2sdp"
+        android:layout_marginRight="@dimen/_2sdp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+
+                >
+                <TextView
+                    android:id="@+id/word"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dictionary1"
+                    android:textSize="@dimen/_18ssp"
+                    android:textStyle="bold"
+                    android:textColor="@color/color1"
+                    android:layout_marginLeft="@dimen/_10ssp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    />
+
+                <TextView
+                    android:id="@+id/part_s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dictionary1"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="normal"
+                    android:textColor="@color/color1"
+                    android:layout_marginLeft="@dimen/_5ssp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+                        android:id="@+id/speak_us"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                         android:tint="#07255e"
+                        android:src="@drawable/speak_us"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground"
+
+                        />
+
+                    <ImageView
+                        android:id="@+id/speak_uk"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@drawable/speak_us"
+                        android:tint="@color/color2"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginRight="@dimen/_50sdp"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground"
+
+                        />
+
+
+
+
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/color1"
+                android:layout_marginTop="@dimen/_10sdp"
+                />
+
+
+            <LinearLayout
+                android:id="@+id/click"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:background="@color/white"
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10ssp"
+                    android:background="@color/color2"
+                    android:padding="@dimen/_3sdp"
+                    android:text="Meaning"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14ssp"
+                    android:layout_marginTop="@dimen/_5sdp"
+
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/means"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10ssp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:fontFamily="@font/kalpurush"
+                    android:text="বাংলাদেশ"
+                    android:textColor="#009688"
+                    android:textSize="@dimen/_18ssp"
+                    android:textStyle="bold"
+                    android:enabled="true"
+                    android:textIsSelectable="true"
+                    android:focusable="true"
+                    android:longClickable="true"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10ssp"
+                    android:background="@color/color2"
+                    android:padding="@dimen/_3sdp"
+                    android:text="Exmaple"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14ssp" />
+
+                <TextView
+                    android:id="@+id/exmp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10ssp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="She accomplished the task in record time./He finally accomplished his dream of becoming a doctor."
+                    android:textColor="@color/color1"
+                    android:textSize="@dimen/_14ssp"
+                    android:enabled="true"
+                    android:textIsSelectable="true"
+                    android:focusable="true"
+                    android:longClickable="true"
+                    android:layout_marginRight="@dimen/_3sdp"
+                    android:justificationMode="inter_word"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/close_means"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:src="@drawable/drop_up_24"
+                    android:elevation="@dimen/_3sdp"
+                    android:tint="@color/color2"
+                    android:layout_gravity="center"
+                    />
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="@color/color2"/>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
